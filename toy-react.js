@@ -1,3 +1,4 @@
+////// 课程一
 class ElementWrapper {
     constructor(type){
         this.root = document.createElement(type)
