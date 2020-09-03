@@ -1,4 +1,4 @@
-import { createElement, Component, render } from './toy-react2.js'
+import { createElement, Component, render } from './toy-react3.js'
 
 // tic-tac-toe最终版
 class Square extends Component {
@@ -126,6 +126,9 @@ class Game extends Component {
 }
 
 render(<Game />, document.getElementById("root"));
+
+// let game = <Game/>;
+// console.log(game.vdom)
 
 function calculateWinner(squares) {
     const lines = [
